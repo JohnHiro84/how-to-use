@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import Router from 'react-dom-router';
 
 function Slideshow(){
 
@@ -10,4 +11,4 @@ function Slideshow(){
   )
 }
 
-export default Slideshow;
+export default withRouter(Slideshow);
