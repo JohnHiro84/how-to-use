@@ -7,6 +7,7 @@ function Slideshow(){
 
   return (
     <div>
+      <button onClick="" >button</button>
     </div>
   )
 }
