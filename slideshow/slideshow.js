@@ -1,9 +1,11 @@
 import React, {useState} from 'react';
-import Router from 'react-dom-router';
+import { withRouter } from 'react-dom-router';
 
 function Slideshow(){
 
    const [page, setPage] = useState(1);
+
+   let imageString = (<img className="slideshow-image" src={require("./page" + (page).toString() + ".png")} alt="slideshow" />)
 
   return (
     <div>
