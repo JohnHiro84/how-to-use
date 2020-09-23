@@ -18,6 +18,7 @@ function Slideshow(){
   return (
     <div>
       <button onClick="" >button</button>
+      <button onClick="" >button</button>
     </div>
   )
 }
