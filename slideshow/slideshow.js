@@ -22,5 +22,5 @@ function Slideshow(){
     </div>
   )
 }
-//////////
+////////////
 export default withRouter(Slideshow);
